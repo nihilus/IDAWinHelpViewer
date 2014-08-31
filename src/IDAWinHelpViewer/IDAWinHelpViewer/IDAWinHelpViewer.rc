@@ -1,0 +1,398 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Neutral) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MAIN_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       MNID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Print",                      MNID_FILE_PRINT
+        MENUITEM "Printer &setup...",           MNID_FILE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       MNID_FILE_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Copy...",                    MNID_EDIT_COPYDLG
+        MENUITEM SEPARATOR
+        MENUITEM "&Annotate...",                MNID_EDIT_ANNOTATE
+    END
+    POPUP "&Bookmark"
+    BEGIN
+        MENUITEM "&Define...",                  MNID_BKMK_DEFINE
+    END
+    POPUP "&Options"
+    BEGIN
+        POPUP "Help always visible"
+        BEGIN
+            MENUITEM "Default",                     MNID_OPTS_HELP_DEFAULT
+            MENUITEM "Visible",                     MNID_OPTS_HELP_VISIBLE
+            MENUITEM "Non visible",                 MNID_OPTS_HELP_NONVISIBLE
+        END
+        MENUITEM "History",                     MNID_OPTS_HISTORY
+        POPUP "Fonts"
+        BEGIN
+            MENUITEM "Small",                       MNID_OPTS_FONTS_SMALL
+            MENUITEM "Normal",                      MNID_OPTS_FONTS_NORMAL
+            MENUITEM "Large",                       MNID_OPTS_FONTS_LARGE
+        END
+        MENUITEM "Use system colours",          MNID_OPTS_SYSTEM_COLORS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Help &on help",               MNID_HELP_HELPON
+        MENUITEM "Always on &top",              MNID_HELP_HELPTOP
+        MENUITEM SEPARATOR
+        MENUITEM "&Info...",                    MNID_HELP_ABOUT
+    END
+END
+
+CONTEXT_MENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Annotation...",               MNID_CTXT_ANNOTATE
+        MENUITEM "Copy",                        MNID_CTXT_COPY
+        MENUITEM "Print...",                    MNID_CTXT_PRINT
+        POPUP "Fonts"
+        BEGIN
+            MENUITEM "Small",                       MNID_CTXT_FONTS_SMALL
+            MENUITEM "Normal",                      MNID_CTXT_FONTS_NORMAL
+            MENUITEM "Large",                       MNID_CTXT_FONTS_LARGE
+        END
+        POPUP "Help always visible"
+        BEGIN
+            MENUITEM "Default",                     MNID_CTXT_HELP_DEFAULT
+            MENUITEM "Visible",                     MNID_CTXT_HELP_VISIBLE
+            MENUITEM "Non visible",                 MNID_CTXT_HELP_NONVISIBLE
+        END
+        MENUITEM "Use system colours",          MNID_CTXT_SYSTEM_COLORS
+    END
+END
+
+#endif    // English (Neutral) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_IDAWINHELPVIEWER MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+MAIN_MENU MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       MNID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "&Print",                      MNID_FILE_PRINT
+        MENUITEM "Printer &setup...",           MNID_FILE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       MNID_FILE_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Copy...",                    MNID_EDIT_COPYDLG
+        MENUITEM SEPARATOR
+        MENUITEM "&Annotate...",                MNID_EDIT_ANNOTATE
+    END
+    POPUP "&Bookmark"
+    BEGIN
+        MENUITEM "&Define...",                  MNID_BKMK_DEFINE
+    END
+    POPUP "&Options"
+    BEGIN
+        POPUP "Help always visible"
+        BEGIN
+            MENUITEM "Default",                     MNID_OPTS_HELP_DEFAULT
+            MENUITEM "Visible",                     MNID_OPTS_HELP_VISIBLE
+            MENUITEM "Non visible",                 MNID_OPTS_HELP_NONVISIBLE
+        END
+        MENUITEM "History",                     MNID_OPTS_HISTORY
+        POPUP "Fonts"
+        BEGIN
+            MENUITEM "Small",                       MNID_OPTS_FONTS_SMALL
+            MENUITEM "Normal",                      MNID_OPTS_FONTS_NORMAL
+            MENUITEM "Large",                       MNID_OPTS_FONTS_LARGE
+        END
+        MENUITEM "Use system colors",           MNID_OPTS_SYSTEM_COLORS
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Help &on help",               MNID_HELP_HELPON
+        MENUITEM "Always on &top",              MNID_HELP_HELPTOP
+        MENUITEM SEPARATOR
+        MENUITEM "&Info...",                    MNID_HELP_ABOUT
+    END
+END
+
+CONTEXT_MENU MENU 
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM "Annotation...",               MNID_CTXT_ANNOTATE
+        MENUITEM "Copy",                        MNID_CTXT_COPY
+        MENUITEM "Print...",                    MNID_CTXT_PRINT
+        POPUP "Fonts"
+        BEGIN
+            MENUITEM "Small",                       MNID_CTXT_FONTS_SMALL
+            MENUITEM "Normal",                      MNID_CTXT_FONTS_NORMAL
+            MENUITEM "Large",                       MNID_CTXT_FONTS_LARGE
+        END
+        POPUP "Help always visible"
+        BEGIN
+            MENUITEM "Default",                     MNID_CTXT_HELP_DEFAULT
+            MENUITEM "Visible",                     MNID_CTXT_HELP_VISIBLE
+            MENUITEM "Non visible",                 MNID_CTXT_HELP_NONVISIBLE
+        END
+        MENUITEM "Use system colors",           MNID_CTXT_SYSTEM_COLORS
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_IDAWINHELPVIEWER ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About IDAWinHelpViewer"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            128,IDC_STATIC,14,14,21,20
+    LTEXT           "IDAWinHelpViewer, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2010",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_INDEX DIALOG  0, 0, 200, 190
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "Index"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LISTBOX         IDC_INDEXLIST,10,10,180,150,LBS_NOINTEGRALHEIGHT | WS_VSCROLL
+END
+
+IDD_SEARCH DIALOG  0, 0, 200, 190
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "Search"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Not implemented yet",-1,10,10,180,150
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    STID_WINE_HELP          "Wine Help"
+    STID_WHERROR            "ERROR"
+    STID_WARNING            "WARNING"
+    STID_INFO               "Information"
+    STID_NOT_IMPLEMENTED    "Not implemented"
+    STID_HLPFILE_ERROR_s    "Error while reading the help file `%s'"
+    STID_CONTENTS           "Summary"
+    STID_INDEX              "&Index"
+    STID_BACK               "&Back"
+    STID_ALL_FILES          "All files (*.*)"
+    STID_HELP_FILES_HLP     "Help files (*.hlp)"
+    STID_FILE_NOT_FOUND_s   "Cannot find '%s'. Do you want to find this file yourself?"
+    STID_NO_RICHEDIT        "Cannot find a richedit implementation... Aborting"
+END
+
+STRINGTABLE 
+BEGIN
+    STID_PSH_INDEX          "Help topics: "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "IDAWinHelpViewer"
+    IDC_IDAWINHELPVIEWER    "IDAWIN32HELPVIEWER"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Italian (Italy) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+#ifdef _WIN32
+LANGUAGE LANG_ITALIAN, SUBLANG_ITALIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041004b0"
+        BEGIN
+            VALUE "CompanyName", "Fabio Fornaro"
+            VALUE "FileDescription", "WinHlp32 Viewer Plugin for IDA Pro"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "IDAWinHelp"
+            VALUE "LegalCopyright", "Copyright (C) 2010"
+            VALUE "OriginalFilename", "IDAWinHelpViewer.plw"
+            VALUE "ProductName", "IDA WinHelp Viewer Plugin"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x410, 1200
+    END
+END
+
+#endif    // Italian (Italy) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
