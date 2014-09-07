@@ -56,6 +56,7 @@
     <None Include="AUTHORS" />
     <None Include="LICENSE" />
     <None Include="VERSION" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IDAWinHelpViewer.h">

@@ -369,7 +369,7 @@ void idaapi run(int /*arg*/)
 	if ( hwnd != NULL )
 	{
 		hook_to_notification_point(HT_UI, ui_callback, form);
-		open_tform(form, FORM_MDI|FORM_TAB|FORM_MENU|FORM_RESTORE);
+		open_tform(form, FORM_TAB|FORM_MENU|FORM_RESTORE);
 	}
 	else 
 		IDAHELP_CurrentInstructionHelpDisplay();
