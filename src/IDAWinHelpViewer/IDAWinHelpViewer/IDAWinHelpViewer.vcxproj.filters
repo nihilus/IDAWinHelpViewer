@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6016a3ef-22d0-46b1-b060-9b4c58b6e902}</UniqueIdentifier>
+      <Extensions>.cpp;.cxx;.c</Extensions>
+    </Filter>
+    <Filter Include="Source Files\wine">
+      <UniqueIdentifier>{668f6637-b143-4277-a9ee-a0dc43f2e323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{bf28f8aa-5870-4c5e-8285-012132ff4a03}</UniqueIdentifier>
+      <Extensions>.h;.hpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files\wine">
+      <UniqueIdentifier>{0a154641-4ad3-4b31-8803-1ff40694b3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8a0d8e34-e5e8-42c2-9458-16f338cd9985}</UniqueIdentifier>
+      <Extensions>.rc;.rc2;.ico;.gif;.bmp;</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IdaWinHelpViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="callback.cpp">
+      <Filter>Source Files\wine</Filter>
+    </ClCompile>
+    <ClCompile Include="helpfile.cpp">
+      <Filter>Source Files\wine</Filter>
+    </ClCompile>
+    <ClCompile Include="macro.cpp">
+      <Filter>Source Files\wine</Filter>
+    </ClCompile>
+    <ClCompile Include="macro2.cpp">
+      <Filter>Source Files\wine</Filter>
+    </ClCompile>
+    <ClCompile Include="string.cpp">
+      <Filter>Source Files\wine</Filter>
+    </ClCompile>
+    <ClCompile Include="winhelp.cpp">
+      <Filter>Source Files\wine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="x86eas.hlp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="macro.lex.l">
+      <Filter>Source Files\wine</Filter>
+    </None>
+    <None Include="AUTHORS" />
+    <None Include="LICENSE" />
+    <None Include="VERSION" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IDAWinHelpViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helpfile.h">
+      <Filter>Header Files\wine</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
+      <Filter>Header Files\wine</Filter>
+    </ClInclude>
+    <ClInclude Include="winhelp.h">
+      <Filter>Header Files\wine</Filter>
+    </ClInclude>
+    <ClInclude Include="winhelp_res.h">
+      <Filter>Header Files\wine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IDAWinHelpViewer.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

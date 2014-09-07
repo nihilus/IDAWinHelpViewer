@@ -1,0 +1,39 @@
+﻿  IdaWinHelpViewer.cpp
+IdaWinHelpViewer.cpp(372): error C2065: 'FORM_MDI' : undeclared identifier
+  stdafx.cpp
+  callback.cpp
+  helpfile.cpp
+helpfile.cpp(268): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(364): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(386): warning C4018: '<=' : signed/unsigned mismatch
+helpfile.cpp(452): warning C4018: '>=' : signed/unsigned mismatch
+helpfile.cpp(645): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(660): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(953): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(954): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(1107): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(1166): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(1399): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(1550): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(1626): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(1865): warning C4244: '=' : conversion from 'unsigned short' to 'BYTE', possible loss of data
+helpfile.cpp(1937): warning C4390: ';' : empty controlled statement found; is this the intent?
+helpfile.cpp(2049): warning C4390: ';' : empty controlled statement found; is this the intent?
+  macro.cpp
+macro.cpp(7): warning C4603: 'FLEX_SCANNER' : macro is not defined or definition is different after precompiled header use
+          Add macro to precompiled header instead of defining here
+          macro.cpp(11) : use of precompiled header
+macro.cpp(8): warning C4603: 'YY_FLEX_MAJOR_VERSION' : macro is not defined or definition is different after precompiled header use
+          Add macro to precompiled header instead of defining here
+          macro.cpp(11) : use of precompiled header
+macro.cpp(9): warning C4603: 'YY_FLEX_MINOR_VERSION' : macro is not defined or definition is different after precompiled header use
+          Add macro to precompiled header instead of defining here
+          macro.cpp(11) : use of precompiled header
+macro.lex.l(244): warning C4405: 'ret' : identifier is reserved word
+macro.lex.l(256): warning C4405: 'ret' : identifier is reserved word
+  string.cpp
+  winhelp.cpp
+winhelp.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+winhelp.cpp(71): warning C4018: '>=' : signed/unsigned mismatch
+winhelp.cpp(72): warning C4018: '<' : signed/unsigned mismatch
+winhelp.cpp(73): warning C4018: '>=' : signed/unsigned mismatch
